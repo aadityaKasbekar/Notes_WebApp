@@ -1,4 +1,4 @@
-# Meeting Notes Web App Assignment 6
+# Notes Web App
 
 Welcome to Assignment 6 of the HTML CSS & JS project! In this assignment, we'll be developing a web app based on the requirements given below. Additionally, we'll be converting all CSS to SCSS syntax and organizing it into modular files. The goal is to learn about JavaScript and how it can be used in the application to add behavior to a static HTML page. Using JS, we have achieved to manage meeting notes efficiently with features such as viewing existing notes, expanding note details, editing notes, and adding new notes.
 
