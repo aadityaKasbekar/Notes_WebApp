@@ -1,0 +1,27 @@
+$color1: #f0f9e8; // Soft green background color
+$color2: #1a535c; // Dark teal
+$color3: #3d9970; // Dark mint green
+$color4: #edf6f9; // Light blue
+$color5: #ff6b6b; // Coral
+$color6: #ffffff; // White
+$color7: #ff9f68; // Orange
+$color8: #f0f0f0; // Lighter background for selected item
+$color9: #777777;  // Gray
+$color10: #2d3047; // Dark blue
+$color11: #48cae4; // Sky blue
+$color12: #adb5bd; // Light gray
+
+
+/**
+* Spacing Sizes:
+* These variables define different spacing sizes used for margins and paddings.
+* Used in loops to generate margin and padding utility classes.
+*/
+$spacing-sizes: 5, 10, 15, 20; // List of spacing sizes in pixels.
+
+/**
+* Font Sizes:
+* These variables define different font sizes used for text elements.
+* Used in loops to generate font size utility classes.
+*/
+$font-sizes: 13, 14, 16, 18, 20, 24, 32, 50; // List of font sizes in pixels.

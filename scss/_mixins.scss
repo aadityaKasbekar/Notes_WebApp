@@ -1,0 +1,30 @@
+/**
+* Border 1px Mixin:
+* This mixin sets border as none and border radius.
+* @param {length} $radius - The border radius.
+*/
+@mixin borderNone($radius) {
+    border: none; // Apply a none border.
+    border-radius: $radius; // Apply the specified border radius.
+}
+/**
+* Border 1px Mixin:
+* This mixin applies a 1px solid border with a specified color and border radius.
+* @param {color} $color - The color of the border.
+* @param {length} $radius - The border radius.
+*/
+@mixin border1px($color, $radius) {
+    border: 1px solid $color; // Apply a 1px solid border with the specified color.
+    border-radius: $radius; // Apply the specified border radius.
+}
+
+/**
+* Border 2px Mixin:
+* This mixin applies a 2px solid border with a specified color and border radius.
+* @param {color} $color - The color of the border.
+* @param {length} $radius - The border radius.
+*/
+@mixin border2px($color, $radius) {
+    border: 2px solid $color; // Apply a 2px solid border with the specified color.
+    border-radius: $radius; // Apply the specified border radius.
+}

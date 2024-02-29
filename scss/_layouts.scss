@@ -1,0 +1,31 @@
+/**
+* Loop through spacing sizes and generate margin and padding utility classes.
+* For each size in the $spacing-sizes list, it generates two classes:
+* - .mg-{size}: Sets margin to {size}px
+* - .pd-{size}: Sets padding to {size}px
+*
+* @param {List} $spacing-sizes - List of spacing sizes in pixels.
+*/
+@each $size in $spacing-sizes {
+    /**
+    * Margin utility class
+    * Generates a margin utility class with the specified size.
+    * Example: .mg-10 sets margin to 10px.
+    *
+    * @class .mg-#{$size}
+    */
+    .mg-#{$size} {
+        margin: #{$size}px;
+    }
+
+    /**
+    * Padding utility class
+    * Generates a padding utility class with the specified size.
+    * Example: .pd-10 sets padding to 10px.
+    *
+    * @class .pd-#{$size}
+    */
+    .pd-#{$size} {
+        padding: #{$size}px;
+    }
+}

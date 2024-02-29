@@ -1,0 +1,19 @@
+/**
+* Loop through font sizes and generate font-size utility classes.
+* For each size in the $font-sizes list, it generates a class:
+* - .fs-{size}: Sets font-size to {size}px.
+*
+* @param {List} $font-sizes - List of font sizes in pixels.
+*/
+@each $fontsize in $font-sizes {
+    /**
+    * Font size utility class
+    * Generates a font-size utility class with the specified size.
+    * Example: .fs-16 sets font-size to 16px.
+    *
+    * @class .fs-#{$fontsize}
+    */
+    .fs-#{$fontsize} {
+        font-size: #{$fontsize}px;
+    }
+}

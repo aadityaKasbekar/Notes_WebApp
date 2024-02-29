@@ -1,0 +1,17 @@
+// Import variables to define and manage reusable values
+@import 'variables';
+
+// Import functions to define reusable functions
+@import 'functions';
+
+// Import layouts to organize the structure and layout of the page
+@import 'layouts';
+
+// Import fonts to manage and apply font styles
+@import 'fonts';
+
+// Import mixins to define reusable style patterns
+@import 'mixins';
+
+// Import the main index file which ties everything together
+@import 'index';

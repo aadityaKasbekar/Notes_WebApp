@@ -1,0 +1,18 @@
+/**
+* font-family function
+* Returns the appropriate font family based on the provided argument.
+*
+* @param {Number} $family - The index of the desired font family.
+*                           1: Arial, sans-serif
+*                           2: 'Times New Roman', Times, sans-serif
+* @return {String} - The font family corresponding to the provided index.
+*/
+@function font-family($family) {
+    @if $family == 1 {
+        @return Arial, sans-serif;
+    } @else if $family == 2 {
+        @return "Times New Roman", Times, sans-serif;
+    } @else {
+        @return null; // Return null for invalid input
+    }
+}

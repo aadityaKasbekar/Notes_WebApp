@@ -1,0 +1,16 @@
+{
+    "name": "assignment-6-aadityakasbekar",
+    "version": "1.0.0",
+    "description": "assignment 6 Notes Web App",
+    "main": "index.js",
+    "scripts": {
+        "sass-dev": "npx sass scss/main.scss dist/main.css --watch",
+        "sass-prod": "npx sass scss/main.scss dist/main.css --style compressed",
+        "sass": "npx sass scss/main.scss dist/main.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "sass": "^1.71.1"
+    }
+}
